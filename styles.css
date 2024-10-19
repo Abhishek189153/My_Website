@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -161,3 +162,168 @@ padding: 0%;
 }
 
 
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #2d9cdb;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li{
+    background: rgb(161, 178, 192);
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+header nav ul li:hover{
+    background-color:skyblue;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+.par{
+    color:lavenders;
+    font-weight: bold;
+}
+
+.intro, .about-section, .packages, .contact-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.intro img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.btn {
+    background: #2d9cdb;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+.package {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    background: #f9f9f9;
+}
+
+footer {
+    background: #2d9cdb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+.about-section{
+background-image: url("images/ourgroup.jpeg");
+background-size: cover;
+background-position: centers;
+height: 500px;
+width: 100%;
+color: white;
+}
+.mybg{
+    background-color: rgba(0, 0, 0, 0.562);
+height: 500px;
+width: 100%;
+margin: 0%;
+padding: 0%;
+
+}
+.intro{
+    background-image: url(images/r3.jpg);
+    background-size: cover;
+    background-position: centers;
+    height: 500px;
+    width: 100%;
+    color: rgb(241, 230, 230);
+}
+.mybgg{
+/* background-color: rgba(0, 0, 0, 0.562); */
+height: 500px;
+width: 100%;
+margin: 0%;
+padding: 0%;
+
+}
+.con{
+    border: none;
+    width: 695px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 25%;
+    height: auto;
+    font-weight: bold;
+
+}
+.contact-section{
+    background-image: url(images/26399-blurred-plants-landscape-nature-sunlight.jpg);
+
+}
+
+.sub{
+    background: rgb(161, 178, 192);
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.sub:hover{
+    background-color:#ddd;
+}
+
+
+>>>>>>> ec72463 (Data Save)
